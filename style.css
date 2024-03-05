@@ -15,3 +15,7 @@ p {
 h2 {
     color: #ffffff; /* Hexadecimal value for white */
 }
+
+a {
+  color: #FFE71C; /* default link color */
+}
