@@ -1,5 +1,5 @@
 /* CSS to control image size */
-.image {
+img {
     width: 300px; /* Set desired width */
     height: auto; /* Maintain aspect ratio */
 }
