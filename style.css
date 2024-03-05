@@ -3,3 +3,7 @@ img {
     width: 300px; /* Set desired width */
     height: auto; /* Maintain aspect ratio */
 }
+
+body {
+    background-color: #565656; /* Hexadecimal value for white */
+}
