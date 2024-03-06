@@ -1,6 +1,6 @@
 /* CSS to control image size */
 img {
-    max-width: 100%; /* Ensure images don't exceed container width */
+    max-width: 25%; /* Ensure images don't exceed container width */
     height: auto; /* Maintain aspect ratio */
     display: block; /* Prevents extra space below image */
     margin: 0 auto; /* Center align image */
