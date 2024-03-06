@@ -1,21 +1,49 @@
 /* CSS to control image size */
 img {
-    width: 400px; /* Set desired width */
+    max-width: 100%; /* Ensure images don't exceed container width */
     height: auto; /* Maintain aspect ratio */
+    display: block; /* Prevents extra space below image */
+    margin: 0 auto; /* Center align image */
 }
 
 body {
-    background-color: #0d1117; /* Hexadecimal value for white */
+    background-color: #0d1117; /* Dark background color */
+    color: #ffffff; /* Text color */
+    font-family: Arial, sans-serif; /* Use Arial font or sans-serif as fallback */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
 }
 
-p {
-    color: #ffffff; /* Hexadecimal value for white */
+p, h2 {
+    margin: 0; /* Remove default margin for paragraphs and headings */
 }
 
-h2 {
-    color: #ffffff; /* Hexadecimal value for white */
+.navbar {
+    background-color: #0d1117; /* Dark background color */
+    text-align: center; /* Center align navigation links */
+    padding: 10px 0; /* Add some padding to top and bottom */
 }
 
-a {
-  color: #FFE71C; /* default link color */
+.navbar a {
+    color: #FFE71C; /* Link color */
+    text-decoration: none; /* Remove underline */
+    margin: 0 10px; /* Add space between links */
+}
+
+.navbar a:hover {
+    text-decoration: underline; /* Underline link on hover */
+}
+
+main {
+    padding: 20px; /* Add padding to main content */
+}
+
+footer {
+    background-color: #0d1117; /* Dark background color */
+    text-align: center; /* Center align footer text */
+    padding: 20px 0; /* Add padding to top and bottom */
+}
+
+footer p {
+    margin: 0; /* Remove default margin for paragraphs inside footer */
 }
