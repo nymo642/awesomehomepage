@@ -69,13 +69,4 @@ footer p {
     100% { background-position: 100% 50%; }
 }
 
-.about-me img {
-    float: left; /* Align the image to the left */
-    margin-right: 20px; /* Add some margin to the right of the image */
-}
 
-.about-me::after {
-    content: "";
-    display: table;
-    clear: both;
-}
