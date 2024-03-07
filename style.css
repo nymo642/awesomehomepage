@@ -3,6 +3,7 @@ audio {
     display: block; /* Ensure the audio player is treated as a block-level element */
     margin: 0 auto; /* Center the audio player horizontally */
     width: 50%; /* Set the desired width for the audio player */
+    float: left;
 }
 
 /* CSS to control image size */
