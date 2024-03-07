@@ -31,7 +31,8 @@ p, h2 {
     padding: 10px 0; /* Add some padding to top and bottom */
 }
 
-.navbar a {
+/* Apply rainbow animation to all hyperlinks */
+a {
     color: transparent; /* Make the text color transparent */
     background-image: linear-gradient(to right, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3); /* Apply rainbow gradient */
     background-size: 600% 100%; /* Set the size of the background image */
@@ -42,7 +43,8 @@ p, h2 {
     margin: 0 10px; /* Add space between links */
 }
 
-.navbar a:hover {
+/* Change background position on hover for smooth effect */
+a:hover {
     background-position: 100% 50%; /* Change background position on hover for smooth effect */
     text-decoration: underline; /* Underline link on hover */
 }
