@@ -9,8 +9,15 @@ audio {
 img {
     max-width: 25%; /* Ensure images don't exceed container width */
     height: auto; /* Maintain aspect ratio */
-    display: block; /* Prevents extra space below image */
-    margin: 0 auto; /* Center align image */
+    float: left; /* Float the image to the left */
+    margin: 0 20px 20px 0; /* Add margin to the right and bottom of the image */
+}
+
+/* Clear floating elements after */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
 }
 
 body {
@@ -68,5 +75,3 @@ footer p {
     0% { background-position: 0% 50%; }
     100% { background-position: 100% 50%; }
 }
-
-
