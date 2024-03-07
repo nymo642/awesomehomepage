@@ -54,3 +54,27 @@ footer {
 footer p {
     margin: 0; /* Remove default margin for paragraphs inside footer */
 }
+
+/* Define the rainbow animation */
+@keyframes rainbow {
+    0% { background-position: 0% 50%; }
+    100% { background-position: 100% 50%; }
+}
+
+/* Apply rainbow animation to hyperlinks */
+a {
+    color: transparent;
+    background-image: linear-gradient(to right, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3);
+    background-size: 600% 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    animation: rainbow 5s linear infinite;
+    text-decoration: none;
+    transition: background-position 0.5s;
+}
+
+/* Change background position on hover for smooth effect */
+a:hover {
+    background-position: 100% 50%;
+}
+
