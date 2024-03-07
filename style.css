@@ -74,3 +74,8 @@ footer p {
     margin-right: 20px; /* Add some margin to the right of the image */
 }
 
+.about-me::after {
+    content: "";
+    display: table;
+    clear: both;
+}
