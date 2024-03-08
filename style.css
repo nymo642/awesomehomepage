@@ -93,16 +93,19 @@ footer p {
 
 .link-item {
     display: flex;
-    align-items: start; /* Align items vertically */
+    align-items: center; /* Align items vertically */
 }
 
 .gif-container {
     width: 75px; /* Set width of the container */
-    height: auto;
+    height: auto; /* Let the height adjust based on the content */
+    display: inline-block; /* Ensure the container only takes up as much space as necessary */
+    overflow: hidden; /* Hide any content that exceeds the container */
 }
 
 .gif-container img {
     width: 100%; /* Ensure the image fills the container width */
     height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove any default inline spacing */
 }
 
