@@ -89,19 +89,16 @@ footer p {
 }
 
 .link-container {
-    margin-left: 5px; /* Adjust margin between GIF and link */
 }
 
 .link-item {
     display: flex;
     align-items: center; /* Align items vertically */
-    margin-bottom: 5px; /* Add space between link items */
 }
 
 .gif-container {
     width: 75px; /* Set width of the container */
     height: auto; /* Maintain aspect ratio */
-    margin-right: 5px; /* Adjust margin between link text and GIF */
 }
 
 .gif-container img {
