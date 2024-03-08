@@ -95,7 +95,7 @@ footer p {
 .link-item {
     display: flex;
     align-items: center; /* Align items vertically */
-    margin-bottom: 20px; /* Add space between link items */
+    margin-bottom: 5px; /* Add space between link items */
 }
 
 .gif-container {
