@@ -1,7 +1,7 @@
 /* CSS to center the audio player */
 audio {
     display: block; /* Ensure the audio player is treated as a block-level element */
-    margin: 25 auto; /* Center the audio player horizontally */
+    margin: 0 auto 20px; /* Center the audio player horizontally */
     width: 25%; /* Set the desired width for the audio player */
     float: left;
 }
