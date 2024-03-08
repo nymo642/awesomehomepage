@@ -99,7 +99,7 @@ footer p {
 }
 
 .gif-container {
-    margin-right: 10px; /* Adjust margin between link text and GIF */
+    margin-right: 0px; /* Adjust margin between link text and GIF */
 }
 
 .gif-container img {
