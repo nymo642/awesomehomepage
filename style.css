@@ -3,11 +3,19 @@ audio {
     display: block; /* Ensure the audio player is treated as a block-level element */
     margin: 0 auto; /* Center the audio player horizontally */
     width: 25%; /* Set the desired width for the audio player */
+    float: left;
 }
 
 /* CSS to control image size */
-img {
+img:not(.header-image) {
     max-width: 25%; /* Ensure images don't exceed container width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.header-image {
+    display: block; /* Ensure header image is treated as a block-level element */
+    margin: 0 auto; /* Center the header image horizontally */
+    max-width: 100%; /* Ensure header image doesn't exceed container width */
     height: auto; /* Maintain aspect ratio */
 }
 
