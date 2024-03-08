@@ -54,6 +54,7 @@ a {
     animation: rainbow 5s linear infinite; /* Apply rainbow animation */
     text-decoration: none; /* Remove underline */
     margin: 0 10px; /* Add space between links */
+    text-shadow: 0 0 10px white; /* Add white outline */
 }
 
 /* Change background position on hover for smooth effect */
