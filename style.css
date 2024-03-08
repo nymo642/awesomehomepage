@@ -15,7 +15,7 @@ img:not(.header-image) {
 .header-image {
     display: block; /* Ensure header image is treated as a block-level element */
     margin: 0 auto; /* Center the header image horizontally */
-    max-width: 100%; /* Ensure header image doesn't exceed container width */
+    max-width: 25%; /* Ensure header image doesn't exceed container width */
     height: auto; /* Maintain aspect ratio */
 }
 
