@@ -47,14 +47,14 @@ p, h2 {
 /* Apply rainbow animation to all hyperlinks */
 a {
     color: transparent; /* Make the text color transparent */
-    background-image: linear-gradient(to right, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3); /* Apply rainbow gradient */
+    background-image: linear-gradient(to right, #ff0000, #ff7f00, #ffff00, #00ff00, #0000ff, #4b0082, #9400d3, #ff0000); /* Apply rainbow gradient */
     background-size: 600% 100%; /* Set the size of the background image */
     background-clip: text; /* Clip text to background */
     -webkit-background-clip: text; /* Clip text to background for Safari */
     animation: rainbow 5s linear infinite; /* Apply rainbow animation */
     text-decoration: none; /* Remove underline */
-    margin: 0 10px; /* Add space between links */
-    text-shadow: 0 0 10px white; /* Add white outline */
+    margin: 0 5px; /* Add space between links */
+    text-shadow: 0 0 5px white; /* Add white outline */
 }
 
 /* Change background position on hover for smooth effect */
