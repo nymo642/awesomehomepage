@@ -93,7 +93,7 @@ footer p {
 
 .link-item {
     display: flex;
-    align-items: center; /* Align items vertically */
+    align-items: start; /* Align items vertically */
 }
 
 .gif-container {
@@ -102,7 +102,7 @@ footer p {
 }
 
 .gif-container img {
-    width: 25%; /* Ensure the image fills the container width */
+    width: 100%; /* Ensure the image fills the container width */
     height: auto; /* Maintain aspect ratio */
 }
 
