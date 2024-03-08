@@ -102,3 +102,7 @@ footer p {
     margin-left: 20px; /* Add space between link text and GIF */
 }
 
+.gif-container img {
+    width: 50px; /* Set the width of the GIF */
+    height: auto; /* Maintain aspect ratio */
+}
