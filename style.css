@@ -82,3 +82,25 @@ footer p {
     0% { background-position: 0% 50%; }
     100% { background-position: 100% 50%; }
 }
+
+.about-me {
+    display: flex;
+    align-items: center;
+    flex-direction: column; /* Stack items vertically */
+}
+
+.link-container {
+    display: flex;
+    flex-direction: column; /* Stack link items vertically */
+}
+
+.link-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; /* Add space between link items */
+}
+
+.gif-container {
+    margin-left: 20px; /* Add space between link text and GIF */
+}
+
