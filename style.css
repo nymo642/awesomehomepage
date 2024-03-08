@@ -99,10 +99,10 @@ footer p {
 }
 
 .gif-container {
-    margin-left: 20px; /* Add space between link text and GIF */
+    margin-left: 5px; /* Add space between link text and GIF */
 }
 
 .gif-container img {
-    width: 50px; /* Set the width of the GIF */
+    width: 75px; /* Set the width of the GIF */
     height: auto; /* Maintain aspect ratio */
 }
