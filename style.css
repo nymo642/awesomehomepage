@@ -9,8 +9,6 @@ audio {
 img {
     max-width: 25%; /* Ensure images don't exceed container width */
     height: auto; /* Maintain aspect ratio */
-    float: left; /* Float the image to the left */
-    margin: 0 20px 20px 0; /* Add margin to the right and bottom of the image */
 }
 
 /* Clear floating elements after */
