@@ -97,12 +97,12 @@ footer p {
 }
 
 .gif-container {
-    width: 75px; /* Set width of the container */
-    height: auto; /* Maintain aspect ratio */
+    width: 25px; /* Set width of the container */
+    height: 50px;
 }
 
 .gif-container img {
-    width: 100%; /* Ensure the image fills the container width */
+    width: 50%; /* Ensure the image fills the container width */
     height: auto; /* Maintain aspect ratio */
 }
 
