@@ -98,7 +98,7 @@ footer p {
 
 .gif-container {
     width: 75px; /* Set width of the container */
-    height: auto; /* Let the height adjust based on the content */
+    height: 75px; /* Let the height adjust based on the content */
     display: inline-block; /* Ensure the container only takes up as much space as necessary */
     overflow: hidden; /* Hide any content that exceeds the container */
 }
