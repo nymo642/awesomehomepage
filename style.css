@@ -89,16 +89,17 @@ footer p {
 }
 
 .link-container {
-    margin-left: 5px; /* Adjust margin between GIF and link */
+    margin-left: 10px; /* Adjust margin between GIF and link */
 }
 
 .link-item {
     display: flex;
+    align-items: center; /* Align items vertically */
     margin-bottom: 20px; /* Add space between link items */
 }
 
 .gif-container {
-    margin-left: 5px; /* Add space between link text and GIF */
+    margin-right: 10px; /* Adjust margin between link text and GIF */
 }
 
 .gif-container img {
